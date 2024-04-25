@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-25T05:48:45 PDT" name="EmiratesFlightSearchQA" finished-at="2024-04-25T05:50:16 PDT" duration-ms="91669">
+    <groups>
+    </groups>
+    <test started-at="2024-04-25T05:48:45 PDT" name="FligtSearchTesting" finished-at="2024-04-25T05:50:16 PDT" duration-ms="91669">
+      <class name="QA.Testing.SearchFlightForDelhiToDubai">
+        <test-method is-config="true" signature="setup()[pri:0, instance:QA.Testing.SearchFlightForDelhiToDubai@4686afc2]" started-at="2024-04-25T05:48:45 PDT" name="setup" finished-at="2024-04-25T05:48:56 PDT" duration-ms="10888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ThirdDesinationWithTwoPassAndPreEcoClass()[pri:0, instance:QA.Testing.SearchFlightForDelhiToDubai@4686afc2]" started-at="2024-04-25T05:48:56 PDT" name="ThirdDesinationWithTwoPassAndPreEcoClass" finished-at="2024-04-25T05:49:21 PDT" duration-ms="25227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdDesinationWithTwoPassAndPreEcoClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QA.Testing.SearchFlightForDelhiToDubai@4686afc2]" started-at="2024-04-25T05:49:21 PDT" name="tearDown" finished-at="2024-04-25T05:49:21 PDT" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QA.Testing.SearchFlightForDelhiToDubai -->
+      <class name="QA.Testing.SearchFlightForDelhiToAbuDhabi">
+        <test-method is-config="true" signature="setup()[pri:0, instance:QA.Testing.SearchFlightForDelhiToAbuDhabi@76b1e9b8]" started-at="2024-04-25T05:49:21 PDT" name="setup" finished-at="2024-04-25T05:49:29 PDT" duration-ms="7509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SecondDesinationWithTwoPassAndPreEcoClass()[pri:0, instance:QA.Testing.SearchFlightForDelhiToAbuDhabi@76b1e9b8]" started-at="2024-04-25T05:49:29 PDT" name="SecondDesinationWithTwoPassAndPreEcoClass" finished-at="2024-04-25T05:49:45 PDT" duration-ms="15920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondDesinationWithTwoPassAndPreEcoClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QA.Testing.SearchFlightForDelhiToAbuDhabi@76b1e9b8]" started-at="2024-04-25T05:49:45 PDT" name="tearDown" finished-at="2024-04-25T05:49:45 PDT" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QA.Testing.SearchFlightForDelhiToAbuDhabi -->
+      <class name="QA.Testing.SearchFlightForBombayToDubai">
+        <test-method is-config="true" signature="setup()[pri:0, instance:QA.Testing.SearchFlightForBombayToDubai@27406a17]" started-at="2024-04-25T05:49:45 PDT" name="setup" finished-at="2024-04-25T05:49:53 PDT" duration-ms="7899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FirstDesinationWithOnePassAndEcoClass()[pri:0, instance:QA.Testing.SearchFlightForBombayToDubai@27406a17]" started-at="2024-04-25T05:49:53 PDT" name="FirstDesinationWithOnePassAndEcoClass" finished-at="2024-04-25T05:50:16 PDT" duration-ms="22928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstDesinationWithOnePassAndEcoClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QA.Testing.SearchFlightForBombayToDubai@27406a17]" started-at="2024-04-25T05:50:16 PDT" name="tearDown" finished-at="2024-04-25T05:50:16 PDT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QA.Testing.SearchFlightForBombayToDubai -->
+    </test> <!-- FligtSearchTesting -->
+  </suite> <!-- EmiratesFlightSearchQA -->
+</testng-results>

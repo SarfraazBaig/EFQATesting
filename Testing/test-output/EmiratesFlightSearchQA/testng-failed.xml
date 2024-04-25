@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EmiratesFlightSearchQA]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FligtSearchTesting(failed)">
+    <classes>
+      <class name="QA.Testing.SearchFlightForDelhiToDubai">
+        <methods>
+          <include name="ThirdDesinationWithThreePassAndPreEcoClass"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- QA.Testing.SearchFlightForDelhiToDubai -->
+      <class name="QA.Testing.SearchFlightForDelhiToAbuDhabi">
+        <methods>
+          <include name="SecondDesinationWithThreePassAndPreEcoClass"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- QA.Testing.SearchFlightForDelhiToAbuDhabi -->
+      <class name="QA.Testing.SearchFlightForBombayToDubai">
+        <methods>
+          <include name="FirstDesinationWithOnePassAndEcoClass"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- QA.Testing.SearchFlightForBombayToDubai -->
+    </classes>
+  </test> <!-- FligtSearchTesting(failed) -->
+</suite> <!-- Failed suite [EmiratesFlightSearchQA] -->
